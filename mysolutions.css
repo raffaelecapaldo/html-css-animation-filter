@@ -48,8 +48,18 @@
     transform:scale(0.3)
 }
 
-/* ESERCISE SIX */
+/* EXERCISE SIX */
 
 .ex-6-img:hover {
     filter:grayscale();
 }
+
+/* EXERCISE SEVEN */
+.ex-7-img {
+    transition: 2s;
+}
+.ex-7-img:hover {
+    filter:sepia(30);
+    filter:contrast(10);
+}
+
