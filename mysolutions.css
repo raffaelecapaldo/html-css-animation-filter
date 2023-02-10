@@ -88,10 +88,10 @@
 
 @keyframes loading {
     from {
-        transform:rotate(360deg)
+        transform:rotate(360deg);
     }
     to {
-        transform:rotate(0deg)
+        transform:rotate(0deg);
     }
 }
 .ex-10-icon {
@@ -102,14 +102,14 @@ animation:loading 1s infinite linear;
 
 @keyframes failedloading {
     0% {
-        transform:rotate(0deg)
+        transform:rotate(0deg);
     }
     90% {
         transform:rotate(calc(360deg / 4 * 3));
     }
 
     100% {
-        transform:rotate(0deg)
+        transform:rotate(0deg);
     }
 }
 
@@ -118,3 +118,43 @@ animation:loading 1s infinite linear;
     animation:failedloading 2s infinite linear;
 }
 
+/* EXERCISE TWELVE */
+
+@keyframes topwhitemovement {
+    0% {
+        left:10%;
+    }
+    50% {
+        left:65%;
+    }
+
+    100% {
+        left:10%;
+    }
+}
+
+@keyframes bottomwhitemovement {
+    0% {
+        right:20%;
+    }
+    50% {
+        right:65%;
+    }
+    100% {
+        right:20%;
+    }
+}
+
+
+.ex-12-bottom-white, .ex-12-top-white {
+    transition:1s ;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation:bottomwhitemovement 2s linear;
+
+}
+
+.ex-12-button:hover .ex-12-top-white {
+  animation:topwhitemovement 2s linear;
+}
