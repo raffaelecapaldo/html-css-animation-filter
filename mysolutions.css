@@ -158,3 +158,55 @@ animation:loading 1s infinite linear;
 .ex-12-button:hover .ex-12-top-white {
   animation:topwhitemovement 2s linear;
 }
+
+/* EXERCISE THIRTEEN  */
+
+@keyframes topwhitemax {
+    0% {
+        left:10%;
+    }
+    15% {
+        left:90%;
+        top:-10px;
+        
+    }
+
+    30% {
+        top:61px;
+    }
+
+    45% {
+        left:63%;
+    }
+
+    60.12% {
+        left:1%;
+        top:61px;
+    }
+
+    75% {
+        left:-8%;
+        top:-13px;
+    }
+
+    100% {
+        left:10%;
+        top:-10px;
+    }
+
+}
+
+@keyframes bottomwhitemax {
+    from {
+        top:-10px;
+    }
+    to {
+        top:55px;
+    }
+}
+   
+
+
+.ex-13-button:hover .ex-13-top-white {
+    animation:topwhitemax 1.5s linear;
+}
