@@ -35,3 +35,19 @@
     opacity:0;
 }
 
+/* EXERCISE FIVE */
+.ex-5-square {
+    transition: 1s;
+}
+
+.ex-5-square:hover {
+    width:130px;
+    height:130px;
+    margin:0;
+}
+
+.ex-5-square:active {
+    width:20px;
+    height:20px;
+    margin:20px;
+}
