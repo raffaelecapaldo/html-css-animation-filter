@@ -109,10 +109,12 @@ animation:loading 1s infinite linear;
     }
 
     100% {
-        transform:rotate:(0deg);
+        transform:rotate(0deg)
     }
 }
+
 
 .ex-11-icon:hover {
     animation:failedloading 2s infinite linear;
 }
+
